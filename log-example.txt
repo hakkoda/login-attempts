@@ -1,0 +1,10 @@
+Feb  5 07:36:05 Computer sshd[18855]: Failed password for root from 223.99.60.49 port 58235 ssh2
+Feb  5 07:36:06 Computer sshd[18857]: Failed password for root from 58.218.199.133 port 47921 ssh2
+Feb  5 07:36:06 Computer sshd[18853]: Failed password for root from 218.65.30.238 port 37514 ssh2
+Feb  5 07:36:06 Computer sshd[18853]: error: maximum authentication attempts exceeded for root from 218.65.30.238 port 37514 ssh2 [preauth]
+Feb  5 07:36:06 Computer sshd[18853]: Disconnecting: Too many authentication failures [preauth]
+Feb  5 07:36:06 Computer sshd[18853]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.238  user=root
+Feb  5 07:36:06 Computer sshd[18853]: PAM service(sshd) ignoring max retries; 6 > 3
+Feb  5 07:36:08 Computer sshd[18855]: Failed password for root from 223.99.60.49 port 58235 ssh2
+Feb  5 07:36:08 Computer sshd[18857]: Failed password for root from 58.218.199.133 port 47921 ssh2
+Feb  5 07:36:09 Computer sshd[18981]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.238  user=root
